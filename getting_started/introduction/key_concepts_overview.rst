@@ -19,7 +19,7 @@ series, you will get to use them in practice.
 Scenes
 ------
 
-In Godot, you break down your game in reusable scenes. A scene can be a character,
+In Godot, you break down your game into reusable scenes. A scene can be a character,
 a weapon, a menu in the user interface, a single house, an entire level, or
 anything you can think of. Godot's scenes are flexible; they fill the role of
 both prefabs and scenes in some other game engines.
@@ -40,8 +40,8 @@ nodes.
 
 .. image:: img/key_concepts_character_nodes.webp
 
-It is made of a ``CharacterBody2D`` node named "Character", a ``Sprite2D``, a
-``Camera2D``, and a ``CollisionShape2D``.
+It is made of a ``CharacterBody2D`` node named "Player", a ``Camera2D``, a
+``Sprite2D``, and a ``CollisionShape2D``.
 
 .. note:: The node names end with "2D" because this is a 2D scene. Their 3D
           counterparts have names that end with "3D". Be aware that "Spatial"
